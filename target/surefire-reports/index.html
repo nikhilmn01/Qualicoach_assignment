@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\Nikhil M N\Desktop\Qualicoach\mvnj\testng.xml</span>
+                    <span>D:\NMN\New folder\QT\mvnj\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -137,7 +137,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Nikhil M N\Desktop\Qualicoach\mvnj\testng.xml</span>
+            <span class="header-content">D:\NMN\New folder\QT\mvnj\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +146,31 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;mvntst.mvnj.studentFull&quot;/&gt;
+      &lt;class name=&quot;mvntst.mvnj.adminFull&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- mvntst.mvnj.adminFull --&gt;
+      &lt;class name=&quot;mvntst.mvnj.Qualicoach&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- mvntst.mvnj.Qualicoach --&gt;
+      &lt;class name=&quot;mvntst.mvnj.studentMain&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- mvntst.mvnj.studentMain --&gt;
+      &lt;class name=&quot;mvntst.mvnj.adminMain&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- mvntst.mvnj.adminMain --&gt;
+      &lt;class name=&quot;mvntst.mvnj.studentFull&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;validLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- mvntst.mvnj.studentFull --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -160,7 +184,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,12 +214,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validLogin')
 data.setCell(0, 2, 'mvntst.mvnj.studentFull')
-data.setCell(0, 3, 38451);
+data.setCell(0, 3, 46517);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -210,9 +234,47 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">9 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">mvntst.mvnj.adminMain</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">admin</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">mvntst.mvnj.Qualicoach</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">admin</span>
+                <br/>
+                <span class="ignored-method-name">student</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">mvntst.mvnj.studentMain</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">student</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">mvntst.mvnj.adminFull</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">bdeleteUser</span>
+                <br/>
+                <span class="ignored-method-name">createCourse</span>
+                <br/>
+                <span class="ignored-method-name">addUser</span>
+                <br/>
+                <span class="ignored-method-name">downloadReport</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">

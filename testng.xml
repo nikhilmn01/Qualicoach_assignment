@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <!--<class name="mvntst.mvnj.adminFull"/>-->
-     <!-- <class name="mvntst.mvnj.Qualicoach"/>-->
-      <!--<class name="mvntst.mvnj.studentMain"/>-->
-      <!--<class name="mvntst.mvnj.adminMain"/>-->
-      <class name="mvntst.mvnj.studentFull"/>
-    </classes>
-  </test> <!-- Test -->
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="mvntst.mvnj.adminFull">
+				<methods>
+					<exclude name=".*"></exclude>
+				</methods>
+			</class>
+			<class name="mvntst.mvnj.Qualicoach">
+				<methods>
+					<exclude name=".*"></exclude>
+				</methods>
+			</class>
+			<class name="mvntst.mvnj.studentMain">
+				<methods>
+					<exclude name=".*"></exclude>
+				</methods>
+			</class>
+
+			<class name="mvntst.mvnj.adminMain">
+				<methods>
+					<exclude name=".*"></exclude>
+				</methods>
+			</class>
+
+			<class name="mvntst.mvnj.studentFull">
+				<methods>
+					<include name="validLogin"></include>
+				</methods>
+			</class>
+
+			<!-- This is just a readyMade copy paste to use <class name="mvntst.mvnj.studentFull"> 
+				<methods> <include name="validLogin"></include> </methods> </class> 
+
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
