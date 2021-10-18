@@ -1,0 +1,115 @@
+Student User Manual 
+
+ 
+
+ 
+
+What is Qualicoach? 
+
+ 
+
+Qualicoach is a Learning Management System (LMS). It is used to deliver training programs or online courses. 
+
+Just like Word helps you write documents and Gmail helps you manage your emails, an LMS is a software program that helps you create, manage and deliver eLearning courses. 
+
+LMS helps you organize these online courses/training programs (create them, change them, assign them to students, grade them, etc). 
+
+ 
+
+A role is a collection of permissions for a specific user in a specific context. 
+
+The following roles are available in Qualicoach: 
+
+Administrator: The Admin (short for Administrator) can do anything and go anywhere in the site. 
+
+Student: A user with the Student role in Moodle can participate in course activities and view resources but not alter them or see the class gradebook. They can see their own grades if the teacher has allowed this. 
+
+ 
+
+Qualicoach courses contain the following modules: 
+
+URL: This type of module contains video content as a course material. 
+
+SCORM: The SCORM module enables you (the teacher) to upload any SCORM or AICC package to include in your course as a part of course material. 
+
+Quiz: The Quiz activity module allows the teacher to design and build quizzes consisting of a large variety of Question types, including multiple choice, true-false, and short answer questions. These questions are kept in the Question bank and can be re-used in different quizzes. 
+
+Feedback: The Feedback activity allows you to create and conduct surveys to collect feedback. The Feedback activity is ideal for course or teacher evaluations. 
+
+Badges: Badges are a good way of celebrating achievement and showing progress. There are 3 types of badges (Gold, Silver, Bronze) 
+
+ 
+
+ 
+
+How to login to Qualicoach platform? 
+
+Open the following URL in browser: 
+
+https://test.qualicoach.org/ 
+
+Enter Username and Password. 
+
+Click LOG IN button. 
+
+ 
+
+How to enroll yourself into course? 
+
+Open the following URL in browser: 
+
+https://test.qualicoach.org/ 
+
+Enter Username and Password. 
+
+Click LOG IN button. 
+
+Scroll down and locate the section ‘What we offer Our Courses’ on the page. 
+
+Click on the required course. 
+
+Click ‘Enrol me’ button at the bottom of the page. 
+
+ 
+
+How to take a quiz in course? 
+
+Login to Qualicoach. 
+
+Click on the required course. 
+
+Quizzes are located at the end of each module section in the course. Quizzes may sometimes be located at the end of course modules under ‘Quiz’ section. 
+
+Click on the required quiz. Click ‘Attempt quiz now’ button. 
+
+ 
+
+How to view and download course certificate? 
+
+You will be able to view and download the course certificate once you have attempted all quizzes in the course. Your total score must be above 60% to generate a certificate. 
+
+ 
+
+How to view Badges and attempt Course Feedback? 
+
+You will be able to view the course badge (i.e. Gold / Silver / Bronze) once you have attempted all quizzes in the course. Your total score must be above 60% to generate a badge. 
+
+You can attempt course feedback under ‘Badge and Feedback’ section of the course. 
+
+ 
+
+How to update user profile? 
+
+Open the following URL in browser: 
+
+https://test.qualicoach.org/my/ 
+
+Click on user photo icon located at the top-right corner of the page. 
+
+Select ‘Profile’ option from the menu. 
+
+Click ‘Edit Profile’ link on the page. 
+
+Edit user information. 
+
+Scroll down and click UPDATE PROFILE button. 
