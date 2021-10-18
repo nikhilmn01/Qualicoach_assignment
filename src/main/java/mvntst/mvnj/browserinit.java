@@ -13,7 +13,7 @@ public class browserinit
 	//Global Declarations
 	WebDriver driver;
 	
-	public WebDriver initialize() throws IOException
+	public  WebDriver initialize() throws IOException
 	{
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream("D:\\NMN\\New folder\\QT\\mvnj\\src\\main\\java\\resources\\data.properties");

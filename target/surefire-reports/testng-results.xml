@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37249" started-at="2021-10-18T16:29:49 IST" finished-at="2021-10-18T16:30:27 IST">
+  <suite name="Suite" duration-ms="38475" started-at="2021-10-18T19:23:43 IST" finished-at="2021-10-18T19:24:22 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37249" started-at="2021-10-18T16:29:49 IST" finished-at="2021-10-18T16:30:27 IST">
-      <class name="mvntst.mvnj.qchTest">
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:mvntst.mvnj.qchTest@1189dd52]" name="validLogin" duration-ms="37223" started-at="2021-10-18T16:29:49 IST" finished-at="2021-10-18T16:30:27 IST">
+    <test name="Test" duration-ms="38475" started-at="2021-10-18T19:23:43 IST" finished-at="2021-10-18T19:24:22 IST">
+      <class name="mvntst.mvnj.studentFull">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:mvntst.mvnj.studentFull@35cabb2a]" name="validLogin" duration-ms="38451" started-at="2021-10-18T19:23:43 IST" finished-at="2021-10-18T19:24:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-      </class> <!-- mvntst.mvnj.qchTest -->
+      </class> <!-- mvntst.mvnj.studentFull -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mvntst.mvnj.adminTest">
+      <class name="mvntst.mvnj.studentMain">
         <methods>
-          <include name="login"/>
-          <include name="downloadReport"/>
+          <include name="student"/>
         </methods>
-      </class> <!-- mvntst.mvnj.adminTest -->
+      </class> <!-- mvntst.mvnj.studentMain -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -27,12 +27,12 @@ public class courseEnroll
 	{
 		Actions a = new Actions(driver);
 		Thread.sleep(500);
-		WebElement mouseHower = driver.findElement(By.xpath("//div[@class='course grid']/div[9]/i/img"));							//Hover mouse onto mouseHover button
+		WebElement mouseHower = driver.findElement(By.xpath("//div[@class='course grid']/div[10]/i/img"));							//Hover mouse onto mouseHover button
 		a.moveToElement(mouseHower).build().perform();
 		
 		Thread.sleep(1000);
 		
-		WebElement mouseClick = driver.findElement(By.xpath("//div[@class='course grid']/div[9]/a/p"));
+		WebElement mouseClick = driver.findElement(By.xpath("//div[@class='course grid']/div[10]/a/p"));
 		a.moveToElement(mouseClick).click().build().perform();
 	}
 	
