@@ -1,0 +1,6 @@
+to run this code anywhere else,
+
+to run in chrome- change the chromedriver path
+to run in firefox - set system properties in browserinit.java  and use firefox driver
+
+to run in IE - set system properties in browserinit.java  and use IE driver
