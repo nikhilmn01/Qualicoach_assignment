@@ -83,7 +83,7 @@ public class adminTest extends browserinit
 //	}
 	
 	@Test
-	public void deleteUser() throws IOException, InterruptedException 
+	public void bdeleteUser() throws IOException, InterruptedException 
 	{
 		adminLogin();
 		

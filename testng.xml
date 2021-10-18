@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="mvntst.mvnj.qchTest"/>
-      <class name="mvntst.mvnj.adminTest"/>
+       <class name="mvntst.mvnj.qchTest"/>  
+    <!--  <class name="mvntst.mvnj.adminTest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

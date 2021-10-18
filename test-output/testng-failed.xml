@@ -5,7 +5,8 @@
     <classes>
       <class name="mvntst.mvnj.adminTest">
         <methods>
-          <include name="editUser"/>
+          <include name="login"/>
+          <include name="downloadReport"/>
         </methods>
       </class> <!-- mvntst.mvnj.adminTest -->
     </classes>

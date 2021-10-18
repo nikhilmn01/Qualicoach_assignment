@@ -37,7 +37,6 @@ public class addUser
 	{
 		return driver.findElement(By.id("id_newpassword"));
 	}
-
 	
 	public WebElement fName()
 	{
