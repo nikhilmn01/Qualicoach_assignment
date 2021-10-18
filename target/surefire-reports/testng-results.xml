@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="428438" started-at="2021-10-17T23:56:33 IST" finished-at="2021-10-18T00:03:41 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="428438" started-at="2021-10-17T23:56:33 IST" finished-at="2021-10-18T00:03:41 IST">
+      <class name="mvntst.mvnj.qchTest">
+        <test-method status="PASS" signature="badgeNsurvey()[pri:0, instance:mvntst.mvnj.qchTest@185d8b6]" name="badgeNsurvey" duration-ms="49711" started-at="2021-10-17T23:56:33 IST" finished-at="2021-10-17T23:57:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- badgeNsurvey -->
+        <test-method status="PASS" signature="courseCert()[pri:0, instance:mvntst.mvnj.qchTest@185d8b6]" name="courseCert" duration-ms="51154" started-at="2021-10-17T23:57:23 IST" finished-at="2021-10-17T23:58:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseCert -->
+        <test-method status="PASS" signature="dummyEnroll()[pri:0, instance:mvntst.mvnj.qchTest@185d8b6]" name="dummyEnroll" duration-ms="44751" started-at="2021-10-17T23:58:14 IST" finished-at="2021-10-17T23:58:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyEnroll -->
+        <test-method status="PASS" signature="dummyQuiz()[pri:0, instance:mvntst.mvnj.qchTest@185d8b6]" name="dummyQuiz" duration-ms="42879" started-at="2021-10-17T23:58:59 IST" finished-at="2021-10-17T23:59:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyQuiz -->
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:mvntst.mvnj.qchTest@185d8b6]" name="invalidLogin" duration-ms="12579" started-at="2021-10-17T23:59:42 IST" finished-at="2021-10-17T23:59:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="user()[pri:0, instance:mvntst.mvnj.qchTest@185d8b6]" name="user" duration-ms="43437" started-at="2021-10-17T23:59:54 IST" finished-at="2021-10-18T00:00:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:mvntst.mvnj.qchTest@185d8b6]" name="validLogin" duration-ms="31451" started-at="2021-10-18T00:00:38 IST" finished-at="2021-10-18T00:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- mvntst.mvnj.qchTest -->
+      <class name="mvntst.mvnj.adminTest">
+        <test-method status="PASS" signature="addUser()[pri:0, instance:mvntst.mvnj.adminTest@7791a895]" name="addUser" duration-ms="33376" started-at="2021-10-18T00:01:09 IST" finished-at="2021-10-18T00:01:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method status="PASS" signature="createCourse()[pri:0, instance:mvntst.mvnj.adminTest@7791a895]" name="createCourse" duration-ms="46308" started-at="2021-10-18T00:01:42 IST" finished-at="2021-10-18T00:02:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCourse -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:mvntst.mvnj.adminTest@7791a895]" name="deleteUser" duration-ms="30171" started-at="2021-10-18T00:02:29 IST" finished-at="2021-10-18T00:02:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="downloadReport()[pri:0, instance:mvntst.mvnj.adminTest@7791a895]" name="downloadReport" duration-ms="24719" started-at="2021-10-18T00:02:59 IST" finished-at="2021-10-18T00:03:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadReport -->
+        <test-method status="PASS" signature="login()[pri:0, instance:mvntst.mvnj.adminTest@7791a895]" name="login" duration-ms="17871" started-at="2021-10-18T00:03:24 IST" finished-at="2021-10-18T00:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- mvntst.mvnj.adminTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
