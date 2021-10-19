@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46121" started-at="2021-10-19T16:53:27 IST" finished-at="2021-10-19T16:54:13 IST">
+  <suite name="Default suite" duration-ms="81658" started-at="2021-10-19T18:24:14 IST" finished-at="2021-10-19T18:25:35 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46121" started-at="2021-10-19T16:53:27 IST" finished-at="2021-10-19T16:54:13 IST">
-      <class name="mvntst.mvnj.studentFull">
-        <test-method status="PASS" signature="courseCert()[pri:0, instance:mvntst.mvnj.studentFull@34e9fd99]" name="courseCert" duration-ms="46086" started-at="2021-10-19T16:53:27 IST" finished-at="2021-10-19T16:54:13 IST">
+    <test name="Default test" duration-ms="81658" started-at="2021-10-19T18:24:14 IST" finished-at="2021-10-19T18:25:35 IST">
+      <class name="mvntst.mvnj.Qualicoach">
+        <test-method status="PASS" signature="student()[pri:0, instance:mvntst.mvnj.Qualicoach@6c6cb480]" name="student" duration-ms="81624" started-at="2021-10-19T18:24:14 IST" finished-at="2021-10-19T18:25:35 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- courseCert -->
-      </class> <!-- mvntst.mvnj.studentFull -->
+        </test-method> <!-- student -->
+      </class> <!-- mvntst.mvnj.Qualicoach -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

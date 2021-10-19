@@ -5,6 +5,8 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.testng.asserts.SoftAssert;
+
 import mvntst.mvnj.browserinit;
 import pageObjects.courseEnroll;
 import pageObjects.courseSelector;
@@ -18,6 +20,7 @@ public class student extends browserinit
 	String pwd="scam143";
 	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(browserinit.class.getName());
+	SoftAssert a = new SoftAssert();
 	
 	
 //	public student(WebDriver driver) 
@@ -141,9 +144,24 @@ public class student extends browserinit
 
 		ce.select();
 		log.info("executed select method");
-
+		
 //		ce.enroll().click();
-//		log.info("executed enroll ");
+
+		
+		try
+		{
+			ce.enroll().click();
+			log.info("executed enroll ");
+		}
+		catch(org.openqa.selenium.ElementNotInteractableException e)
+		{
+			String error = "Already enrolled to this course and hence the object is not interactable";
+			a.assertFalse(false);
+			log.error(error);
+//			System.out.println(error);
+		}
+
+		a.assertAll();
 		
 		sleepNclose();
 
@@ -215,33 +233,55 @@ public class student extends browserinit
 		driver = initialize();
 
 		login();
-		log.info("executed login block");
+		log.debug("executed login block");
 		
 		courseEnroll ce = new courseEnroll(driver);
 		log.info("course enroll object created successfully");
 
 		ce.scroll();
-		log.info("executed scroll method");
+		log.debug("executed scroll method");
 
 		ce.select();
-		log.info("executed select method");
+		log.debug("executed select method");
 
-//		ce.enroll().click();
+		try
+		{
+			ce.enroll().click();
+			log.debug("executed enroll ");
+		}
+		catch(org.openqa.selenium.ElementNotInteractableException e)
+		{
+			String error = "Already enrolled to this course and hence the object is not interactable";
+			a.assertFalse(false);
+			log.error(error);
+		}
+
 		log.info("executed enroll method");
 
 		ce.quiz().click();
-		log.info("clicked on quiz tab");
+		log.debug("clicked on quiz tab");
 
 		ce.quizSel().click();
 		log.info("clicked on quiz subTab");
 
-//		ce.quizAttempt().click();
 		
-		ce.quizAttempt();
+		try
+		{
+			ce.quizAttempt().click();
+			log.info("attempt the quiz ");
+		}
+		catch(org.openqa.selenium.NoSuchElementException e)
+		{
+			String error = "Already taken the quiz";
+			a.assertFalse(false);
+			log.error(error);
+		}
+		
 		log.info("quiz attempted");
 		
 		sleepNclose();
-
+		
 	}
+	
 
 }

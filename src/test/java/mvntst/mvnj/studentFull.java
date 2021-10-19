@@ -11,7 +11,7 @@ import pageObjects.courseSelector;
 import pageObjects.login;
 import pageObjects.userProfile;
 
-public class studentFull extends browserinit
+public class studentFull extends browserinit 
 {
 	//Global Declarations
 	String uName= "scam143";

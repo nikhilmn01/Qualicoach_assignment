@@ -5,7 +5,7 @@
     <classes>
       <class name="mvntst.mvnj.Qualicoach">
         <methods>
-          <include name="admin"/>
+          <include name="student"/>
         </methods>
       </class> <!-- mvntst.mvnj.Qualicoach -->
     </classes>

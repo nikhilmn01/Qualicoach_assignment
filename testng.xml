@@ -31,8 +31,6 @@
 				</methods>
 			</class>
 
-			<!-- This is just a readyMade copy paste to use <class name="mvntst.mvnj.studentFull"> 
-				<methods> <include name="validLogin"></include> </methods> </class> 
 
 		</classes>
 	</test> <!-- Test -->

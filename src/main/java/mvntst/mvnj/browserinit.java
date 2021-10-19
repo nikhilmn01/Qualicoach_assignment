@@ -39,7 +39,7 @@ public class browserinit
 		}
 		
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
 		return driver;
 		
 		

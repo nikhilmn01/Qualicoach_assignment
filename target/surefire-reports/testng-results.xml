@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="9" total="10" passed="1">
+<testng-results skipped="0" failed="0" ignored="8" total="10" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46539" started-at="2021-10-18T23:30:28 IST" finished-at="2021-10-18T23:31:15 IST">
+  <suite name="Suite" duration-ms="581071" started-at="2021-10-19T18:27:29 IST" finished-at="2021-10-19T18:37:10 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46539" started-at="2021-10-18T23:30:28 IST" finished-at="2021-10-18T23:31:15 IST">
-      <class name="mvntst.mvnj.studentFull">
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:mvntst.mvnj.studentFull@1a482e36]" name="validLogin" duration-ms="46517" started-at="2021-10-18T23:30:28 IST" finished-at="2021-10-18T23:31:15 IST">
+    <test name="Test" duration-ms="581071" started-at="2021-10-19T18:27:29 IST" finished-at="2021-10-19T18:37:10 IST">
+      <class name="mvntst.mvnj.Qualicoach">
+        <test-method status="PASS" signature="admin()[pri:0, instance:mvntst.mvnj.Qualicoach@4efbca5a]" name="admin" duration-ms="245043" started-at="2021-10-19T18:27:29 IST" finished-at="2021-10-19T18:31:34 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-      </class> <!-- mvntst.mvnj.studentFull -->
+        </test-method> <!-- admin -->
+        <test-method status="PASS" signature="student()[pri:0, instance:mvntst.mvnj.Qualicoach@4efbca5a]" name="student" duration-ms="336003" started-at="2021-10-19T18:31:34 IST" finished-at="2021-10-19T18:37:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- student -->
+      </class> <!-- mvntst.mvnj.Qualicoach -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
