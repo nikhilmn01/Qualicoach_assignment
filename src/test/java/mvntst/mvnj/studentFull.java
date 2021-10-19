@@ -48,15 +48,15 @@ public class studentFull extends browserinit
 	}
 	
 	//Test Cases
-	@Test
-	public void validLogin() throws IOException, InterruptedException
-	{
-		log.info("entered validLogin block");
-		login();
-		log.info("Valid login successful");
-		
-		sleepNclose();		
-	}
+//	@Test
+//	public void validLogin() throws IOException, InterruptedException
+//	{
+//		log.info("entered validLogin block");
+//		login();
+//		log.info("Valid login successful");
+//		
+//		sleepNclose();		
+//	}
 	
 //	@Test
 //	public void invalidLogin() throws IOException, InterruptedException
@@ -142,35 +142,35 @@ public class studentFull extends browserinit
 //		sleepNclose();
 //	}
 //	
-//	@Test
-//	public void courseCert() throws IOException, InterruptedException
-//	{
-//		login();
-//		log.info("executed login block");
-//
-//		
-//		courseSelector c = new courseSelector(driver);
-//		log.info("course selector object created successfully");
-//
-//		c.scroll();
-//		log.info("executed scroll method");
-//
-//		c.select();
-//		log.info("executed select method");
-//
-//		c.cert().click();
-//		log.info("clicked certificate tab");
-//
-//		c.cert1().click();
-//		log.info("clicked certificate subTab");
-//
-////		c.getCert().click();
-//		log.info("certificate downloaded");
-//
-//		
-//		sleepNclose();
-//		
-//	}
+	@Test
+	public void courseCert() throws IOException, InterruptedException
+	{
+		login();
+		log.info("executed login block");
+
+		
+		courseSelector c = new courseSelector(driver);
+		log.info("course selector object created successfully");
+
+		c.scroll();
+		log.info("executed scroll method");
+
+		c.select();
+		log.info("executed select method");
+
+		c.cert().click();
+		log.info("clicked certificate tab");
+
+		c.cert1().click();
+		log.info("clicked certificate subTab");
+
+//		c.getCert().click();
+		log.info("certificate downloaded");
+
+		
+		sleepNclose();
+		
+	}
 //	
 //	@Test
 //	public void badgeNsurvey() throws IOException, InterruptedException

@@ -10,7 +10,7 @@
 			</class>
 			<class name="mvntst.mvnj.Qualicoach">
 				<methods>
-					<exclude name=".*"></exclude>
+					<include name=".*"></include>
 				</methods>
 			</class>
 			<class name="mvntst.mvnj.studentMain">
@@ -27,7 +27,7 @@
 
 			<class name="mvntst.mvnj.studentFull">
 				<methods>
-					<include name="validLogin"></include>
+					<exclude name=".*"></exclude>
 				</methods>
 			</class>
 
