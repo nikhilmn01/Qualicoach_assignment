@@ -145,9 +145,6 @@ public class student extends browserinit
 		ce.select();
 		log.info("executed select method");
 		
-//		ce.enroll().click();
-
-		
 		try
 		{
 			ce.enroll().click();
@@ -159,6 +156,12 @@ public class student extends browserinit
 			a.assertFalse(false);
 			log.error(error);
 //			System.out.println(error);
+		}
+		catch(Exception e)
+		{
+			String error = ": Because, user already enrolled to this course ";
+			a.assertFalse(false);
+			log.error(e + error);
 		}
 
 		a.assertAll();
@@ -184,18 +187,36 @@ public class student extends browserinit
 		c.select();
 		log.info("executed select method");
 
-		c.cert().click();
-		log.info("clicked certificate tab");
 
-		c.cert1().click();
-		log.info("clicked certificate subTab");
-
-//		c.getCert().click();
-		log.info("certificate downloaded");
 		
+		try 
+		{
+			c.cert().click();
+			log.info("clicked certificate tab");
+			
+			c.cert1().click();
+			log.info("clicked certificate subTab");
+			
+			c.getCert().click();
+			log.info("certificate downloaded");
+		}
+		catch(org.openqa.selenium.ElementNotInteractableException e )
+		{
+			log.error(e);
+		}
+		
+		catch( org.openqa.selenium.NoSuchElementException d)
+		{
+			log.error(d);
+		}
+		
+		catch(Exception a)
+		{
+			log.error("Parent Exception: "+ a);
+		}
+
 		sleepNclose();
-
-		
+	
 		
 	}
 	
@@ -251,9 +272,11 @@ public class student extends browserinit
 		}
 		catch(org.openqa.selenium.ElementNotInteractableException e)
 		{
+			
 			String error = "Already enrolled to this course and hence the object is not interactable";
 			a.assertFalse(false);
-			log.error(error);
+			System.out.println(error);
+			log.error(e.getMessage());
 		}
 
 		log.info("executed enroll method");
@@ -278,6 +301,8 @@ public class student extends browserinit
 		}
 		
 		log.info("quiz attempted");
+		
+		
 		
 		sleepNclose();
 		

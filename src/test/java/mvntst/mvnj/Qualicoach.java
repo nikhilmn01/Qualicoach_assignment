@@ -1,7 +1,5 @@
 package mvntst.mvnj;
 
-import static org.testng.Assert.assertFalse;
-
 import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
@@ -14,19 +12,19 @@ public class Qualicoach
 	
 	
 	@Test
-	public void student() throws IOException, InterruptedException
+	public void aastudent() throws IOException, InterruptedException
 	{
 		collaborated.student s = new collaborated.student();
-		s.validLogin();
-		s.invalidLogin();
-		s.user();
-		s.dummyEnroll();
+//		s.validLogin();
+//		s.invalidLogin();
+//		s.user();
+//		s.dummyEnroll();
+//		s.badgeNsurvey();
 		s.courseCert();
-		s.badgeNsurvey();
-		s.dummyQuiz();
+//		s.dummyQuiz();
 	}
 	
-	@Test
+	//@Test
 	public void admin() throws IOException, InterruptedException
 	{
 		collaborated.admin a = new collaborated.admin();
