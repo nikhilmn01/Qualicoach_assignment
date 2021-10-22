@@ -14,6 +14,7 @@ import adminPageObjects.createCr;
 import adminPageObjects.deleteUser;
 import adminPageObjects.scroll;
 import mvntst.mvnj.browserinit;
+import pageObjects.login;
 
 public class admin extends browserinit
 {
@@ -56,6 +57,26 @@ public class admin extends browserinit
 		
 		sleepNclose();
 		
+	}
+	
+	public void emptyLogin() throws IOException, InterruptedException
+	{
+		driver = initialize();
+
+		log.info("entered invalid Login block");
+				
+		driver.get("https://test.qualicoach.org/admin/search.php");
+		log.info("successfully reached the website");
+		
+		login l =new login(driver);
+		log.info("login object created successfully");
+		
+		l.ok().click();
+		log.info("clicked on login without entering anything");
+
+		l.errorMessage();
+		log.error("enetr valid credentials error message displayed successfully");
+		sleepNclose();
 	}
 	
 	

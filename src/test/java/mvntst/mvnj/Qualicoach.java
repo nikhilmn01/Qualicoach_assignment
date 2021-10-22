@@ -17,24 +17,26 @@ public class Qualicoach
 		Thread.sleep(2000);
 		log.info("********************Start of user account********************");
 		collaborated.student s = new collaborated.student();
-		s.validLogin();
-		s.invalidLogin();
-		s.user();
+		//s.validLogin();
+		//s.invalidLogin();
+		s.emptyLogin();
+		//s.user();
 		s.dummyEnroll();
-		s.badgeNsurvey();
-		s.courseCert();
-		s.dummyQuiz();
+		//s.badgeNsurvey();
+		//s.courseCert();
+		//s.dummyQuiz();
 		log.info("********************end of user account********************");
 		Thread.sleep(1000);
 	}
 	
-	@Test
+	//@Test
 	public void admin() throws IOException, InterruptedException
 	{
 		Thread.sleep(2000);
 		log.info("********************Start of admin account********************");
 		collaborated.admin a = new collaborated.admin();
 		a.login();
+		a.emptyLogin();
 		a.addUser();
 		a.editUser();
 		a.bdeleteUser();
