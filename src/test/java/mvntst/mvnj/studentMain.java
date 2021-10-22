@@ -15,13 +15,14 @@ public class studentMain
 	public void student() throws IOException, InterruptedException
 	{
 		collaborated.student s = new collaborated.student();
-		s.validLogin();
-		s.invalidLogin();
-		s.user();
-		s.dummyEnroll();
-		s.courseCert();
-		s.badgeNsurvey();
-		s.dummyQuiz();
+		s.aValidLogin();
+		s.bInvalidLogin();
+		s.cEmptyLogin();
+		s.dUser();
+		s.eDummyEnroll();
+		s.fCourseCert();
+		s.gBadgeNsurvey();
+		s.hDummyQuiz();
 	}
 	
 	

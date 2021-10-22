@@ -17,14 +17,14 @@ public class Qualicoach
 		Thread.sleep(2000);
 		log.info("********************Start of user account********************");
 		collaborated.student s = new collaborated.student();
-		//s.validLogin();
-		//s.invalidLogin();
-		s.emptyLogin();
-		//s.user();
-		s.dummyEnroll();
-		//s.badgeNsurvey();
-		//s.courseCert();
-		//s.dummyQuiz();
+		s.aValidLogin();
+		s.bInvalidLogin();
+		s.cEmptyLogin();
+		s.dUser();
+		s.eDummyEnroll();
+		s.fCourseCert();
+		s.gBadgeNsurvey();
+		s.hDummyQuiz();
 		log.info("********************end of user account********************");
 		Thread.sleep(1000);
 	}
@@ -35,13 +35,13 @@ public class Qualicoach
 		Thread.sleep(2000);
 		log.info("********************Start of admin account********************");
 		collaborated.admin a = new collaborated.admin();
-		a.login();
-		a.emptyLogin();
-		a.addUser();
-		a.editUser();
-		a.bdeleteUser();
-		a.createCourse();
-		a.downloadReport();
+		a.aLogin();
+		a.bEmptyLogin();
+		a.cAddUser();
+		a.dEditUser();
+		a.eDeleteUser();
+		a.fCreateCourse();
+		a.gDownloadReport();
 		log.info("********************end of admin account********************");
 		Thread.sleep(1000);
 

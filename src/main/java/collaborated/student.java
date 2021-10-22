@@ -23,11 +23,6 @@ public class student extends browserinit
 	SoftAssert a = new SoftAssert();
 	
 	
-//	public student(WebDriver driver) 
-//	{
-//		this.driver=driver;
-//	}
-	
 	public void login() throws IOException
 	{
 		log.info("entered login block");
@@ -56,7 +51,7 @@ public class student extends browserinit
 	
 
 	
-	public void validLogin() throws IOException, InterruptedException
+	public void aValidLogin() throws IOException, InterruptedException
 	{
 		driver = initialize();
 
@@ -67,7 +62,7 @@ public class student extends browserinit
 		
 	}
 	
-	public void invalidLogin() throws IOException, InterruptedException
+	public void bInvalidLogin() throws IOException, InterruptedException
 	{
 		driver = initialize();
 
@@ -93,7 +88,7 @@ public class student extends browserinit
 		
 	}
 	
-	public void emptyLogin() throws IOException, InterruptedException
+	public void cEmptyLogin() throws IOException, InterruptedException
 	{
 		driver = initialize();
 
@@ -113,7 +108,7 @@ public class student extends browserinit
 		sleepNclose();
 	}
 	
-	public void user() throws IOException, InterruptedException
+	public void dUser() throws IOException, InterruptedException
 	{
 		driver = initialize();
 
@@ -148,7 +143,7 @@ public class student extends browserinit
 		
 	}
 	
-	public void dummyEnroll() throws IOException, InterruptedException
+	public void eDummyEnroll() throws IOException, InterruptedException
 	{
 		driver = initialize();
 
@@ -189,7 +184,7 @@ public class student extends browserinit
 
 	}
 	
-	public void courseCert() throws IOException, InterruptedException
+	public void fCourseCert() throws IOException, InterruptedException
 	{
 		driver = initialize();
 
@@ -240,7 +235,7 @@ public class student extends browserinit
 		
 	}
 	
-	public void badgeNsurvey() throws IOException, InterruptedException
+	public void gBadgeNsurvey() throws IOException, InterruptedException
 	{
 		driver = initialize();
 
@@ -269,7 +264,7 @@ public class student extends browserinit
 		
 	}
 	
-	public void dummyQuiz() throws IOException, InterruptedException
+	public void hDummyQuiz() throws IOException, InterruptedException
 	{
 		driver = initialize();
 

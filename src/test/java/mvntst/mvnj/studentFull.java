@@ -51,23 +51,24 @@ public class studentFull extends browserinit
 	
 	//Test Cases
 	@Test
-	public void validLogin() throws IOException, InterruptedException
+	public void aValidLogin() throws IOException, InterruptedException
 	{
+		driver = initialize();
+
 		log.info("entered validLogin block");
 		login();
 		log.info("Valid login successful");
+		sleepNclose();
 		
-		sleepNclose();		
 	}
 	
 	@Test
-	public void invalidLogin() throws IOException, InterruptedException
+	public void bInvalidLogin() throws IOException, InterruptedException
 	{
+		driver = initialize();
+
 		log.info("entered invalid Login block");
-		
-		driver=initialize();
-		log.info("driver is initialized");
-		
+				
 		driver.get("https://test.qualicoach.org/login/index.php");
 		log.info("successfully reached the website");
 		
@@ -83,15 +84,37 @@ public class studentFull extends browserinit
 
 		l.errorMessage();
 		log.error("Invalid username or password message displayed successfully");
-		
 		sleepNclose();
+		
 		
 	}
 	
 	@Test
-	public void user() throws IOException, InterruptedException
+	public void cEmptyLogin() throws IOException, InterruptedException
 	{
+		driver = initialize();
+
+		log.info("entered invalid Login block");
+				
+		driver.get("https://test.qualicoach.org/login/index.php");
+		log.info("successfully reached the website");
 		
+		login l =new login(driver);
+		log.info("login object created successfully");
+		
+		l.ok().click();
+		log.info("Valid login ready");
+
+		l.errorMessage();
+		log.error("enetr valid credentials error message displayed successfully");
+		sleepNclose();
+	}
+	
+	@Test
+	public void dUser() throws IOException, InterruptedException
+	{
+		driver = initialize();
+
 		log.info("entered login block");
 		
 		login();
@@ -117,14 +140,17 @@ public class studentFull extends browserinit
 
 		u.update().click();
 		log.info("clicked update");
-
 		
 		sleepNclose();
+
+		
 	}
 	
 	@Test
-	public void dummyEnroll() throws IOException, InterruptedException
+	public void eDummyEnroll() throws IOException, InterruptedException
 	{
+		driver = initialize();
+
 		login();
 		log.info("executed login block");
 
@@ -137,7 +163,7 @@ public class studentFull extends browserinit
 
 		ce.select();
 		log.info("executed select method");
-
+		
 		try
 		{
 			ce.enroll().click();
@@ -148,7 +174,6 @@ public class studentFull extends browserinit
 			String error = "Already enrolled to this course and hence the object is not interactable";
 			a.assertFalse(false);
 			log.error(error);
-//			System.out.println(error);
 		}
 		catch(Exception e)
 		{
@@ -160,11 +185,14 @@ public class studentFull extends browserinit
 		a.assertAll();
 		
 		sleepNclose();
+
 	}
 	
 	@Test
-	public void courseCert() throws IOException, InterruptedException
+	public void fCourseCert() throws IOException, InterruptedException
 	{
+		driver = initialize();
+
 		login();
 		log.info("executed login block");
 
@@ -178,6 +206,8 @@ public class studentFull extends browserinit
 		c.select();
 		log.info("executed select method");
 
+
+		
 		try 
 		{
 			c.cert().click();
@@ -192,13 +222,11 @@ public class studentFull extends browserinit
 		catch(org.openqa.selenium.ElementNotInteractableException e )
 		{
 			log.error(e);
-			a.assertFalse(false);
 		}
 		
 		catch( org.openqa.selenium.NoSuchElementException d)
 		{
 			log.error(d);
-			a.assertFalse(false);
 		}
 		
 		catch(Exception a)
@@ -208,12 +236,15 @@ public class studentFull extends browserinit
 		a.assertAll();
 
 		sleepNclose();
+	
 		
 	}
 	
 	@Test
-	public void badgeNsurvey() throws IOException, InterruptedException
+	public void gBadgeNsurvey() throws IOException, InterruptedException
 	{
+		driver = initialize();
+
 		login();
 		log.info("executed login block");
 		
@@ -234,25 +265,27 @@ public class studentFull extends browserinit
 
 		c.feedback().click();
 		log.info("clicked feedback");
-		
 		sleepNclose();
+		
 		
 	}
 	
 	@Test
-	public void dummyQuiz() throws IOException, InterruptedException
+	public void hDummyQuiz() throws IOException, InterruptedException
 	{
+		driver = initialize();
+
 		login();
-		log.info("executed login block");
+		log.debug("executed login block");
 		
 		courseEnroll ce = new courseEnroll(driver);
 		log.info("course enroll object created successfully");
 
 		ce.scroll();
-		log.info("executed scroll method");
+		log.debug("executed scroll method");
 
 		ce.select();
-		log.info("executed select method");
+		log.debug("executed select method");
 
 		try
 		{
@@ -267,6 +300,7 @@ public class studentFull extends browserinit
 			System.out.println(error);
 			log.error(e.getMessage());
 		}
+		a.assertAll();
 
 		log.info("executed enroll method");
 
@@ -276,6 +310,7 @@ public class studentFull extends browserinit
 		ce.quizSel().click();
 		log.info("clicked on quiz subTab");
 
+		
 		try
 		{
 			ce.quizAttempt().click();
@@ -292,6 +327,7 @@ public class studentFull extends browserinit
 		log.info("quiz attempted");
 
 		sleepNclose();
+		
 	}
 	
 }

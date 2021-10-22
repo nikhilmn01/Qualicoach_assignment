@@ -48,7 +48,7 @@ public class admin extends browserinit
 	}
 	
 
-	public void login() throws IOException, InterruptedException 
+	public void aLogin() throws IOException, InterruptedException 
 	{
 		driver=initialize();
 		log.info("driver initiated successfully");
@@ -59,7 +59,7 @@ public class admin extends browserinit
 		
 	}
 	
-	public void emptyLogin() throws IOException, InterruptedException
+	public void bEmptyLogin() throws IOException, InterruptedException
 	{
 		driver = initialize();
 
@@ -80,7 +80,7 @@ public class admin extends browserinit
 	}
 	
 	
-	public void addUser() throws InterruptedException, IOException
+	public void cAddUser() throws InterruptedException, IOException
 	{
 		
 		driver=initialize();
@@ -121,7 +121,7 @@ public class admin extends browserinit
 	}
 	
 
-	public void editUser() throws IOException, InterruptedException
+	public void dEditUser() throws IOException, InterruptedException
 	{
 	
 		driver=initialize();
@@ -158,7 +158,7 @@ public class admin extends browserinit
 	}
 	
 	
-	public void bdeleteUser() throws IOException, InterruptedException 
+	public void eDeleteUser() throws IOException, InterruptedException 
 	{
 		
 		try
@@ -203,7 +203,7 @@ public class admin extends browserinit
 	}
 	
 	
-	public void createCourse() throws IOException, InterruptedException
+	public void fCreateCourse() throws IOException, InterruptedException
 	{
 		
 		driver=initialize();
@@ -258,7 +258,7 @@ public class admin extends browserinit
 	}
 	
 	
-	public void downloadReport() throws IOException, InterruptedException
+	public void gDownloadReport() throws IOException, InterruptedException
 	{
 		driver= initialize();
 		log.info("driver initiated successfully");

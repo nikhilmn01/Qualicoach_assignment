@@ -15,12 +15,13 @@ public class adminMain
 	public void admin() throws IOException, InterruptedException
 	{
 		collaborated.admin a = new collaborated.admin();
-		a.login();
-		a.addUser();
-//		a.editUser();
-		a.bdeleteUser();
-		a.createCourse();
-		a.downloadReport();
+		a.aLogin();
+		a.bEmptyLogin();
+		a.cAddUser();
+		a.dEditUser();
+		a.eDeleteUser();
+		a.fCreateCourse();
+		a.gDownloadReport();
 	}
 	
 	
