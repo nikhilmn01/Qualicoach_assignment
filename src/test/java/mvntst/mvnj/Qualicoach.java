@@ -29,7 +29,7 @@ public class Qualicoach
 		Thread.sleep(1000);
 	}
 	
-	//@Test
+	@Test
 	public void admin() throws IOException, InterruptedException
 	{
 		Thread.sleep(2000);
