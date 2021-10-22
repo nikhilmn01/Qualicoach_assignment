@@ -1,0 +1,183 @@
+14:55:48.475 [main] INFO  mvntst.mvnj.Qualicoach - ********************Start of user account********************
+14:55:50.544 [main] INFO  collaborated.student - entered validLogin block
+14:55:50.544 [main] INFO  collaborated.student - entered login block
+14:56:00.138 [main] INFO  collaborated.student - successfully reached the website
+14:56:00.139 [main] INFO  collaborated.student - login object created successfully
+14:56:00.259 [main] INFO  collaborated.student - Username and password is entered
+14:56:21.468 [main] INFO  collaborated.student - Valid login ready
+14:56:21.469 [main] INFO  collaborated.student - Valid login successful
+14:56:21.469 [main] INFO  collaborated.student - entered sleepNclose block
+14:56:23.722 [main] INFO  collaborated.student - entered invalid Login block
+14:56:33.605 [main] INFO  collaborated.student - successfully reached the website
+14:56:33.606 [main] INFO  collaborated.student - login object created successfully
+14:56:33.717 [main] INFO  collaborated.student - Username and password is entered
+14:56:35.745 [main] INFO  collaborated.student - Valid login ready
+14:56:35.768 [main] ERROR collaborated.student - Invalid username or password message displayed successfully
+14:56:35.768 [main] INFO  collaborated.student - entered sleepNclose block
+14:56:37.976 [main] INFO  collaborated.student - entered invalid Login block
+14:56:47.250 [main] INFO  collaborated.student - successfully reached the website
+14:56:47.250 [main] INFO  collaborated.student - login object created successfully
+14:56:49.400 [main] INFO  collaborated.student - Valid login ready
+14:56:49.423 [main] ERROR collaborated.student - enetr valid credentials error message displayed successfully
+14:56:49.423 [main] INFO  collaborated.student - entered sleepNclose block
+14:56:51.659 [main] INFO  collaborated.student - entered login block
+14:56:51.659 [main] INFO  collaborated.student - entered login block
+14:57:02.492 [main] INFO  collaborated.student - successfully reached the website
+14:57:02.492 [main] INFO  collaborated.student - login object created successfully
+14:57:02.608 [main] INFO  collaborated.student - Username and password is entered
+14:57:22.510 [main] INFO  collaborated.student - Valid login ready
+14:57:22.511 [main] INFO  collaborated.student - executed login block
+14:57:22.513 [main] INFO  collaborated.student - user profile object created successfully
+14:57:22.557 [main] INFO  collaborated.student - clicked menu
+14:57:24.991 [main] INFO  collaborated.student - clicked profile
+14:57:30.824 [main] INFO  collaborated.student - clicked edit
+14:57:30.865 [main] INFO  collaborated.student - clicked editCity
+14:57:30.926 [main] INFO  collaborated.student - entered city name
+14:57:34.285 [main] INFO  collaborated.student - clicked update
+14:57:34.285 [main] INFO  collaborated.student - entered sleepNclose block
+14:57:36.550 [main] INFO  collaborated.student - entered login block
+14:57:44.444 [main] INFO  collaborated.student - successfully reached the website
+14:57:44.444 [main] INFO  collaborated.student - login object created successfully
+14:57:44.556 [main] INFO  collaborated.student - Username and password is entered
+14:58:14.914 [main] INFO  collaborated.student - Valid login ready
+14:58:14.914 [main] INFO  collaborated.student - executed login block
+14:58:14.915 [main] INFO  collaborated.student - course enroll object created successfully
+14:58:15.426 [main] INFO  collaborated.student - executed scroll method
+14:58:23.018 [main] INFO  collaborated.student - executed select method
+14:58:31.058 [main] ERROR collaborated.student - Already enrolled to this course and hence the object is not interactable
+14:58:31.058 [main] INFO  collaborated.student - entered sleepNclose block
+14:58:33.321 [main] INFO  collaborated.student - entered login block
+14:58:41.492 [main] INFO  collaborated.student - successfully reached the website
+14:58:41.492 [main] INFO  collaborated.student - login object created successfully
+14:58:41.602 [main] INFO  collaborated.student - Username and password is entered
+14:59:00.771 [main] INFO  collaborated.student - Valid login ready
+14:59:00.771 [main] INFO  collaborated.student - executed login block
+14:59:00.772 [main] INFO  collaborated.student - course selector object created successfully
+14:59:01.288 [main] INFO  collaborated.student - executed scroll method
+14:59:07.432 [main] INFO  collaborated.student - executed select method
+14:59:09.317 [main] INFO  collaborated.student - clicked certificate tab
+14:59:11.273 [main] INFO  collaborated.student - clicked certificate subTab
+14:59:11.366 [main] INFO  collaborated.student - certificate downloaded
+14:59:11.367 [main] INFO  collaborated.student - entered sleepNclose block
+14:59:13.674 [main] INFO  collaborated.student - entered login block
+14:59:21.301 [main] INFO  collaborated.student - successfully reached the website
+14:59:21.302 [main] INFO  collaborated.student - login object created successfully
+14:59:21.419 [main] INFO  collaborated.student - Username and password is entered
+14:59:40.126 [main] INFO  collaborated.student - Valid login ready
+14:59:40.126 [main] INFO  collaborated.student - executed login block
+14:59:40.127 [main] INFO  collaborated.student - course selector object created successfully
+14:59:40.636 [main] INFO  collaborated.student - executed scroll method
+14:59:46.636 [main] INFO  collaborated.student - executed select method
+14:59:46.683 [main] INFO  collaborated.student - clicked badgeNsurvey tab
+14:59:49.910 [main] INFO  collaborated.student - clicked getBadge
+14:59:51.428 [main] INFO  collaborated.student - clicked feedback
+14:59:51.428 [main] INFO  collaborated.student - entered sleepNclose block
+14:59:53.738 [main] INFO  collaborated.student - entered login block
+15:00:01.739 [main] INFO  collaborated.student - successfully reached the website
+15:00:01.739 [main] INFO  collaborated.student - login object created successfully
+15:00:01.850 [main] INFO  collaborated.student - Username and password is entered
+15:00:22.086 [main] INFO  collaborated.student - Valid login ready
+15:00:22.086 [main] DEBUG collaborated.student - executed login block
+15:00:22.086 [main] INFO  collaborated.student - course enroll object created successfully
+15:00:22.598 [main] DEBUG collaborated.student - executed scroll method
+15:00:30.248 [main] DEBUG collaborated.student - executed select method
+15:00:38.281 [main] ERROR collaborated.student - element not interactable
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-C4JBVE4V', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\NIKHIL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d0f1b9f1ea01f1f51ec23430d272f50
+15:00:38.281 [main] INFO  collaborated.student - executed enroll method
+15:00:38.328 [main] DEBUG collaborated.student - clicked on quiz tab
+15:00:40.633 [main] INFO  collaborated.student - clicked on quiz subTab
+15:00:48.653 [main] ERROR collaborated.student - Already taken the quiz
+15:00:48.653 [main] INFO  collaborated.student - quiz attempted
+15:00:48.653 [main] INFO  collaborated.student - entered sleepNclose block
+15:00:49.722 [main] INFO  mvntst.mvnj.Qualicoach - ********************end of user account********************
+15:00:52.723 [main] INFO  mvntst.mvnj.Qualicoach - ********************Start of admin account********************
+15:00:54.028 [main] INFO  collaborated.admin - driver initiated successfully
+15:01:02.931 [main] INFO  collaborated.admin - reached website successfully
+15:01:02.931 [main] INFO  collaborated.admin - login object created successfully
+15:01:09.502 [main] INFO  collaborated.admin - clicked login
+15:01:09.502 [main] INFO  collaborated.admin - login successful
+15:01:09.502 [main] INFO  collaborated.admin - initiated sleep for 1 sec
+15:01:10.502 [main] INFO  collaborated.admin - closing current window
+15:01:11.786 [main] INFO  collaborated.admin - entered invalid Login block
+15:01:19.990 [main] INFO  collaborated.admin - successfully reached the website
+15:01:19.990 [main] INFO  collaborated.admin - login object created successfully
+15:01:22.145 [main] INFO  collaborated.admin - clicked on login without entering anything
+15:01:22.167 [main] ERROR collaborated.admin - enetr valid credentials error message displayed successfully
+15:01:22.167 [main] INFO  collaborated.admin - initiated sleep for 1 sec
+15:01:23.168 [main] INFO  collaborated.admin - closing current window
+15:01:24.453 [main] INFO  collaborated.admin - driver initiated successfully
+15:01:34.846 [main] INFO  collaborated.admin - reached website successfully
+15:01:34.846 [main] INFO  collaborated.admin - login object created successfully
+15:01:41.531 [main] INFO  collaborated.admin - clicked login
+15:01:41.531 [main] INFO  collaborated.admin - login successful
+15:01:41.531 [main] INFO  collaborated.admin - user object created successfully
+15:01:41.578 [main] INFO  collaborated.admin - navigation successful
+15:01:46.863 [main] INFO  collaborated.admin - clicked add user
+15:01:46.956 [main] INFO  collaborated.admin - clicked username
+15:01:47.020 [main] INFO  collaborated.admin - clicked password
+15:01:47.399 [main] INFO  collaborated.admin - entered details
+15:01:47.399 [main] INFO  collaborated.admin - scroll object created successfully
+15:01:57.165 [main] INFO  collaborated.admin - clicked on update
+15:01:57.165 [main] INFO  collaborated.admin - initiated sleep for 1 sec
+15:01:58.166 [main] INFO  collaborated.admin - closing current window
+15:01:59.423 [main] INFO  collaborated.admin - driver initiated successfully
+15:02:10.458 [main] INFO  collaborated.admin - reached website successfully
+15:02:10.459 [main] INFO  collaborated.admin - login object created successfully
+15:02:16.430 [main] INFO  collaborated.admin - clicked login
+15:02:16.430 [main] INFO  collaborated.admin - login successful
+15:02:16.430 [main] INFO  collaborated.admin - edit user object created successfully
+15:02:16.476 [main] INFO  collaborated.admin - navigation successful
+15:02:20.929 [main] INFO  collaborated.admin - clicked on browse
+15:02:21.038 [main] INFO  collaborated.admin - searched for created user
+15:02:23.635 [main] INFO  collaborated.admin - clicked on add filter
+15:02:29.815 [main] INFO  collaborated.admin - clicked on edit
+15:02:29.816 [main] INFO  collaborated.admin - initiated sleep for 1 sec
+15:02:30.816 [main] INFO  collaborated.admin - closing current window
+15:02:32.106 [main] INFO  collaborated.admin - driver initiated successfully
+15:02:43.011 [main] INFO  collaborated.admin - reached website successfully
+15:02:43.011 [main] INFO  collaborated.admin - login object created successfully
+15:02:49.597 [main] INFO  collaborated.admin - clicked login
+15:02:49.598 [main] INFO  collaborated.admin - login successful
+15:02:49.598 [main] INFO  collaborated.admin - edit user object created successfully
+15:02:49.642 [main] INFO  collaborated.admin - navigated to browse
+15:02:54.486 [main] INFO  collaborated.admin - clicked on browse
+15:02:54.600 [main] INFO  collaborated.admin - searched for created user
+15:02:56.869 [main] INFO  collaborated.admin - clicked on add filter
+15:02:58.952 [main] INFO  collaborated.admin - clicked on delete user
+15:03:04.923 [main] INFO  collaborated.admin - confirm deletet
+15:03:04.923 [main] INFO  collaborated.admin - initiated sleep for 1 sec
+15:03:05.923 [main] INFO  collaborated.admin - closing current window
+15:03:07.201 [main] INFO  collaborated.admin - driver initiated successfully
+15:03:16.194 [main] INFO  collaborated.admin - reached website successfully
+15:03:16.194 [main] INFO  collaborated.admin - login object created successfully
+15:03:23.106 [main] INFO  collaborated.admin - clicked login
+15:03:23.106 [main] INFO  collaborated.admin - login successful
+15:03:23.106 [main] INFO  collaborated.admin - edit user object created successfully
+15:03:23.150 [main] INFO  collaborated.admin - clicked on course
+15:03:31.195 [main] INFO  collaborated.admin - clicked on manage course
+15:03:36.737 [main] INFO  collaborated.admin - clicked on create course
+15:03:36.801 [main] INFO  collaborated.admin - searched for course name
+15:03:48.968 [main] INFO  collaborated.admin - clicked on submit button
+15:03:55.521 [main] INFO  collaborated.admin - clicked on find
+15:04:01.742 [main] INFO  collaborated.admin - clicked on create course
+15:04:01.827 [main] INFO  collaborated.admin - entered name of the course
+15:04:01.892 [main] INFO  collaborated.admin - entered second name of the course
+15:04:06.100 [main] INFO  collaborated.admin - clicked on submit
+15:04:06.100 [main] INFO  collaborated.admin - initiated sleep for 1 sec
+15:04:07.100 [main] INFO  collaborated.admin - closing current window
+15:04:08.418 [main] INFO  collaborated.admin - driver initiated successfully
+15:04:17.420 [main] INFO  collaborated.admin - Navigated to website to download url successful
+15:04:17.421 [main] INFO  collaborated.admin - edit user object created successfully
+15:04:24.953 [main] INFO  collaborated.admin - entered details and clicked on login
+15:04:24.954 [main] INFO  collaborated.admin - course report object created successfully
+15:04:28.296 [main] INFO  collaborated.admin - clicked on certificate select
+15:04:31.402 [main] INFO  collaborated.admin - clicked on manage reports
+15:04:32.407 [main] INFO  collaborated.admin - clicked on download in required fromat
+15:04:32.407 [main] INFO  collaborated.admin - initiated sleep for 1 sec
+15:04:33.407 [main] INFO  collaborated.admin - closing current window
+15:04:33.478 [main] INFO  mvntst.mvnj.Qualicoach - ********************end of admin account********************

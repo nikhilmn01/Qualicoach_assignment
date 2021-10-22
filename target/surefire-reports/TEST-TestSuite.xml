@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="375.081" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="529.026" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Nikhil M N\AppData\Local\Temp\surefire6480353139575193361\surefirebooter5842568755078265896.jar C:\Users\Nikhil M N\AppData\Local\Temp\surefire6480353139575193361 2021-10-22T13-31-47_544-jvmRun1 surefire150257259344833446tmp surefire_01649024837306801301tmp"/>
+    <property name="sun.java.command" value="C:\Users\Nikhil M N\AppData\Local\Temp\surefire3322750707898470569\surefirebooter1094422220476646415.jar C:\Users\Nikhil M N\AppData\Local\Temp\surefire3322750707898470569 2021-10-22T14-55-44_913-jvmRun1 surefire2412083300186052464tmp surefire_04577942506406963236tmp"/>
     <property name="surefire.test.class.path" value="D:\NMN\New folder\QT\mvnj\target\test-classes;D:\NMN\New folder\QT\mvnj\target\classes;C:\Users\Nikhil M N\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Nikhil M N\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Nikhil M N\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Nikhil M N\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\Nikhil M N\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\Nikhil M N\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\Nikhil M N\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\Nikhil M N\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\Nikhil M N\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\Nikhil M N\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\Nikhil M N\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\Nikhil M N\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\Nikhil M N\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\Nikhil M N\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\Nikhil M N\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Nikhil M N\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Nikhil M N\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Nikhil M N\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Nikhil M N\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Nikhil M N\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Nikhil M N\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Nikhil M N\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Nikhil M N\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nikhil M N\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Nikhil M N\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Nikhil M N\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Nikhil M N\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Nikhil M N\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Nikhil M N\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Nikhil M N\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Nikhil M N\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Nikhil M N\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Nikhil M N\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Nikhil M N\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Nikhil M N\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Nikhil M N\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Nikhil M N"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Nikhil M N\AppData\Local\Temp\surefire6480353139575193361\surefirebooter5842568755078265896.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nikhil M N\AppData\Local\Temp\surefire3322750707898470569\surefirebooter1094422220476646415.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,91 +61,116 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="aastudent" classname="mvntst.mvnj.Qualicoach" time="144.356">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;Devops 101&apos;)]&quot;}&#10;  (Session info: chrome=95.0.4638.54)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;LAPTOP-C4JBVE4V&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\NIKHIL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a917100cb4e9456016d1c8603bff7761&#10;*** Element info: {Using=xpath, value=//p[contains(text(),&apos;Devops 101&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Devops 101')]"}
-  (Session info: chrome=95.0.4638.54)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'LAPTOP-C4JBVE4V', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\NIKHIL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a917100cb4e9456016d1c8603bff7761
-*** Element info: {Using=xpath, value=//p[contains(text(),'Devops 101')]}
-	at mvntst.mvnj.Qualicoach.aastudent(Qualicoach.java:23)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 13896
+  <testcase name="aastudent" classname="mvntst.mvnj.Qualicoach" time="304.256">
+    <system-out><![CDATA[Already enrolled to this course and hence the object is not interactable
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 31466
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1634889713.011][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Oct 22, 2021 1:31:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1634894750.260][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 2:55:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 8640
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 8562
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1634889759.032][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Oct 22, 2021 1:32:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1634894783.517][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 2:56:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 15278
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 10594
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1634889774.432][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Oct 22, 2021 1:32:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1634894797.799][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 2:56:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 16710
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 12853
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1634889824.765][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Oct 22, 2021 1:33:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1634894811.451][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 2:56:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 14994
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1634894856.317][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 2:57:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 46136
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1634894913.079][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 2:58:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 2302
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1634894953.390][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 2:59:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 44807
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1634894993.488][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 2:59:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="admin" classname="mvntst.mvnj.Qualicoach" time="229.681">
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 27686
+  <testcase name="admin" classname="mvntst.mvnj.Qualicoach" time="223.758">
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 7107
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1634889856.507][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Oct 22, 2021 1:34:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1634895053.718][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 3:00:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 37216
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 2152
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1634889878.191][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Oct 22, 2021 1:34:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1634895071.551][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 3:01:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 15958
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 20617
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1634889912.287][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Oct 22, 2021 1:35:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1634895084.208][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 3:01:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 18535
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 13821
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1634889944.596][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Oct 22, 2021 1:35:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1634895119.215][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 3:01:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 47457
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 32791
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1634889978.841][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Oct 22, 2021 1:36:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1634895151.880][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 3:02:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 33897
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 13020
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1634890051.525][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Oct 22, 2021 1:37:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1634895186.983][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 3:03:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 11149
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1634895248.192][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Oct 22, 2021 3:04:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
