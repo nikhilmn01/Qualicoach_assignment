@@ -11,7 +11,7 @@ public class scroll
 	{
 		this.driver = driver;
 	}
-	public void scroll() throws InterruptedException
+	public void scroll1() throws InterruptedException
 	{
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		jse.executeScript("window.scrollBy(0,2000)");

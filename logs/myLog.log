@@ -1,0 +1,39 @@
+13:31:51.196 [main] INFO  mvntst.mvnj.Qualicoach - ********************Start of user account********************
+13:31:53.277 [main] INFO  collaborated.student - entered validLogin block
+13:31:53.277 [main] INFO  collaborated.student - entered login block
+13:32:05.135 [main] INFO  collaborated.student - successfully reached the website
+13:32:05.135 [main] INFO  collaborated.student - login object created successfully
+13:32:05.235 [main] INFO  collaborated.student - Username and password is entered
+13:32:36.876 [main] INFO  collaborated.student - Valid login ready
+13:32:36.877 [main] INFO  collaborated.student - Valid login successful
+13:32:36.877 [main] INFO  collaborated.student - entered sleepNclose block
+13:32:39.449 [main] INFO  collaborated.student - entered invalid Login block
+13:32:50.401 [main] INFO  collaborated.student - successfully reached the website
+13:32:50.401 [main] INFO  collaborated.student - login object created successfully
+13:32:50.509 [main] INFO  collaborated.student - Username and password is entered
+13:32:52.383 [main] INFO  collaborated.student - Valid login ready
+13:32:52.405 [main] ERROR collaborated.student - Invalid username or password message displayed successfully
+13:32:52.405 [main] INFO  collaborated.student - entered sleepNclose block
+13:32:54.858 [main] INFO  collaborated.student - entered login block
+13:32:54.858 [main] INFO  collaborated.student - entered login block
+13:33:05.665 [main] INFO  collaborated.student - successfully reached the website
+13:33:05.665 [main] INFO  collaborated.student - login object created successfully
+13:33:05.773 [main] INFO  collaborated.student - Username and password is entered
+13:33:28.557 [main] INFO  collaborated.student - Valid login ready
+13:33:28.558 [main] INFO  collaborated.student - executed login block
+13:33:28.827 [main] INFO  collaborated.student - user profile object created successfully
+13:33:28.877 [main] INFO  collaborated.student - clicked menu
+13:33:32.582 [main] INFO  collaborated.student - clicked profile
+13:33:39.241 [main] INFO  collaborated.student - clicked edit
+13:33:39.279 [main] INFO  collaborated.student - clicked editCity
+13:33:39.336 [main] INFO  collaborated.student - entered city name
+13:33:42.701 [main] INFO  collaborated.student - clicked update
+13:33:42.701 [main] INFO  collaborated.student - entered sleepNclose block
+13:33:45.025 [main] INFO  collaborated.student - entered login block
+13:33:59.528 [main] INFO  collaborated.student - successfully reached the website
+13:33:59.528 [main] INFO  collaborated.student - login object created successfully
+13:33:59.638 [main] INFO  collaborated.student - Username and password is entered
+13:34:03.481 [main] INFO  collaborated.student - Valid login ready
+13:34:03.481 [main] INFO  collaborated.student - executed login block
+13:34:03.482 [main] INFO  collaborated.student - course enroll object created successfully
+13:34:03.989 [main] INFO  collaborated.student - executed scroll method

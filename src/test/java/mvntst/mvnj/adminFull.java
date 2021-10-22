@@ -59,28 +59,28 @@ public class adminFull extends browserinit
 		u.email().sendKeys("admin@abcd.com");
 		
 		scroll s = new scroll(driver);
-		s.scroll();
+		s.scroll1();
 		Thread.sleep(3000);
 		u.aUpdate().click();
 		
 		sleepNclose();
 	}
 	
-//	@Test
-//	public void editUser() throws IOException, InterruptedException
-//	{
-//		adminLogin();
-//		
-//		editUser e= new editUser(driver);
-//		e.userNavigate().click();
-//		e.browse().click();
-//		e.search().sendKeys("adminnmn");
-//		e.filter().click();
-//		e.edit().click();
-//		
-//		sleepNclose();
-//		
-//	}
+	//@Test
+	public void editUser() throws IOException, InterruptedException
+	{
+		adminLogin();
+		
+		editUser e= new editUser(driver);
+		e.userNavigate().click();
+		e.browse().click();
+		e.search().sendKeys("adminnmn");
+		e.filter().click();
+		e.edit().click();
+		
+		sleepNclose();
+		
+	}
 	
 	@Test
 	public void bdeleteUser() throws IOException, InterruptedException 
@@ -136,8 +136,7 @@ public class adminFull extends browserinit
 		c.download().click();
 		
 		sleepNclose();
-		
-		
+				
 	}
 
 }

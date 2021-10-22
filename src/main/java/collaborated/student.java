@@ -19,7 +19,7 @@ public class student extends browserinit
 	String uName= "scam143";
 	String pwd="scam143";
 	public WebDriver driver;
-	public static Logger log = LogManager.getLogger(browserinit.class.getName());
+	public static Logger log = LogManager.getLogger(student.class.getName());
 	SoftAssert a = new SoftAssert();
 	
 	
@@ -93,6 +93,26 @@ public class student extends browserinit
 		
 	}
 	
+	public void emptyLogin() throws IOException, InterruptedException
+	{
+		driver = initialize();
+
+		log.info("entered invalid Login block");
+				
+		driver.get("https://test.qualicoach.org/login/index.php");
+		log.info("successfully reached the website");
+		
+		login l =new login(driver);
+		log.info("login object created successfully");
+		
+		l.ok().click();
+		log.info("Valid login ready");
+
+		l.errorMessage();
+		log.error("enetr valid credentials error message displayed successfully");
+		sleepNclose();
+	}
+	
 	public void user() throws IOException, InterruptedException
 	{
 		driver = initialize();
@@ -155,7 +175,6 @@ public class student extends browserinit
 			String error = "Already enrolled to this course and hence the object is not interactable";
 			a.assertFalse(false);
 			log.error(error);
-//			System.out.println(error);
 		}
 		catch(Exception e)
 		{
@@ -214,6 +233,7 @@ public class student extends browserinit
 		{
 			log.error("Parent Exception: "+ a);
 		}
+		a.assertAll();
 
 		sleepNclose();
 	
@@ -278,6 +298,7 @@ public class student extends browserinit
 			System.out.println(error);
 			log.error(e.getMessage());
 		}
+		a.assertAll();
 
 		log.info("executed enroll method");
 
@@ -299,11 +320,10 @@ public class student extends browserinit
 			a.assertFalse(false);
 			log.error(error);
 		}
+		a.assertAll();
 		
 		log.info("quiz attempted");
-		
-		
-		
+
 		sleepNclose();
 		
 	}

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="8" total="10" passed="2">
+<testng-results skipped="0" failed="0" ignored="14" total="16" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="581071" started-at="2021-10-19T18:27:29 IST" finished-at="2021-10-19T18:37:10 IST">
+  <suite name="Suite" duration-ms="516340" started-at="2021-10-22T13:19:26 IST" finished-at="2021-10-22T13:28:02 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="581071" started-at="2021-10-19T18:27:29 IST" finished-at="2021-10-19T18:37:10 IST">
+    <test name="Test" duration-ms="516340" started-at="2021-10-22T13:19:26 IST" finished-at="2021-10-22T13:28:02 IST">
       <class name="mvntst.mvnj.Qualicoach">
-        <test-method status="PASS" signature="admin()[pri:0, instance:mvntst.mvnj.Qualicoach@4efbca5a]" name="admin" duration-ms="245043" started-at="2021-10-19T18:27:29 IST" finished-at="2021-10-19T18:31:34 IST">
+        <test-method status="PASS" signature="aastudent()[pri:0, instance:mvntst.mvnj.Qualicoach@1e66f1f5]" name="aastudent" duration-ms="291955" started-at="2021-10-22T13:19:26 IST" finished-at="2021-10-22T13:24:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aastudent -->
+        <test-method status="PASS" signature="admin()[pri:0, instance:mvntst.mvnj.Qualicoach@1e66f1f5]" name="admin" duration-ms="224358" started-at="2021-10-22T13:24:18 IST" finished-at="2021-10-22T13:28:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- admin -->
-        <test-method status="PASS" signature="student()[pri:0, instance:mvntst.mvnj.Qualicoach@4efbca5a]" name="student" duration-ms="336003" started-at="2021-10-19T18:31:34 IST" finished-at="2021-10-19T18:37:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- student -->
       </class> <!-- mvntst.mvnj.Qualicoach -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
